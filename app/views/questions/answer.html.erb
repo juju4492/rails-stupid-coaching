@@ -1,0 +1,18 @@
+<h1>Questions#answer</h1>
+
+
+<div class="question card">
+  <blockquote>
+    <h3>Question  : <%= params[:question] %></h3>
+    <cite> - You </cite>
+  </blockquote>
+</div>
+
+<div class="answer card">
+  <blockquote>
+    <h3> Answer : <%= @answer %> </h3>
+    <cite>- Your coach</cite>
+  </blockquote>
+</div>
+
+<%= link_to("Ask a new question", "/ask") %>
